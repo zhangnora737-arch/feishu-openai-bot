@@ -1,0 +1,18 @@
+{
+  "name": "feishu-openai-bot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "worker:dev": "wrangler dev",
+    "worker:deploy": "wrangler deploy",
+    "worker:tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.20.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
